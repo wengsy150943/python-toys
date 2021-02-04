@@ -1,5 +1,5 @@
 import numpy as np
-import os
+#import os
 from PIL import Image
 
 
@@ -26,4 +26,5 @@ def de_image(ori_img, diff_img):
     return ans
 
 ans = de_image("source.jpg", "target.png")
-print(decode(ans))
+file = open("result.txt","w",encoding="utf8")
+print(decode(ans),file=file)

@@ -1,0 +1,2 @@
+在introduction.txt里写下需要隐写的内容，将目标的jpg图片重命名为source，运行Tpencode即可得到经过隐写的target.png
+将source.jpg和target.png放在这个路径下，运行Tpdecode即会在result.txt输出隐写的内容。

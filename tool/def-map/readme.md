@@ -1,0 +1,1 @@
+把图片放进来，然后修改config.txt，然后运行def-map.exe就可以了！

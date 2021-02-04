@@ -1,5 +1,5 @@
-import numpy as np
-import os
+from numpy import array
+#import os
 from PIL import Image
 
 def encode(filename):
@@ -16,7 +16,7 @@ def encode(filename):
 
 def en_image(imgname,ls):
     im = Image.open(imgname)
-    data = np.array(im)
+    data = array(im)
     l = len(ls)
     num = 0
     col,row,channel = data.shape
