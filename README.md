@@ -28,8 +28,12 @@
   九宫格
   
   https://zhuanlan.zhihu.com/p/349309137
+  
+- fetch-ref
 
+  自动抓取 Bibtex 引用
 
+  通过抓取 dblp 的 BibTeX 信息，将参考文献表转为 BibTeX 文件。
 
 ### tool：工具封装
 
